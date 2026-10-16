@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meritve>
+    <meritev id="M005">
+        <pacientId>P003</pacientId>
+        <ime>Luka</ime>
+        <priimek>Horvat</priimek>
+        <dokumentId>D004</dokumentId>
+        <dokumentNaziv>Laboratorijski izvid 004</dokumentNaziv>
+        <datum>2026-09-04</datum>
+        <naziv>HbA1c</naziv>
+        <vrednost />
+        <enota>%</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M007">
+        <pacientId>P005</pacientId>
+        <ime>Peter</ime>
+        <priimek>Zupančič</priimek>
+        <dokumentId>D006</dokumentId>
+        <dokumentNaziv>Laboratorijski izvid 006</dokumentNaziv>
+        <datum>2026-09-06</datum>
+        <naziv>HbA1c</naziv>
+        <vrednost>7.8</vrednost>
+        <enota />
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M010">
+        <pacientId>P008</pacientId>
+        <ime>Sara</ime>
+        <priimek>Mlakar</priimek>
+        <dokumentId>D009</dokumentId>
+        <dokumentNaziv>Laboratorijski izvid 009</dokumentNaziv>
+        <datum>2026-09-09</datum>
+        <naziv>Glukoza</naziv>
+        <vrednost />
+        <enota>mmol/L</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M013">
+        <pacientId>P011</pacientId>
+        <ime>Tomaž</ime>
+        <priimek>Golob</priimek>
+        <dokumentId>D012</dokumentId>
+        <dokumentNaziv>Laboratorijski izvid 012</dokumentNaziv>
+        <datum>2026-10-12</datum>
+        <naziv>HbA1c</naziv>
+        <vrednost>8.0</vrednost>
+        <enota />
+        <stran>1</stran>
+    </meritev>
+</meritve>

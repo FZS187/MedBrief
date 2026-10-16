@@ -1,0 +1,54 @@
+[
+    {
+        "pacientId": "P003",
+        "ime": "Luka",
+        "priimek": "Horvat",
+        "dokumentId": "D004",
+        "dokumentNaziv": "Laboratorijski izvid 004",
+        "datum": "2026-09-04",
+        "meritevId": "M005",
+        "naziv": "HbA1c",
+        "vrednost": "",
+        "enota": "%",
+        "stran": "1"
+    },
+    {
+        "pacientId": "P005",
+        "ime": "Peter",
+        "priimek": "Zupančič",
+        "dokumentId": "D006",
+        "dokumentNaziv": "Laboratorijski izvid 006",
+        "datum": "2026-09-06",
+        "meritevId": "M007",
+        "naziv": "HbA1c",
+        "vrednost": "7.8",
+        "enota": "",
+        "stran": "1"
+    },
+    {
+        "pacientId": "P008",
+        "ime": "Sara",
+        "priimek": "Mlakar",
+        "dokumentId": "D009",
+        "dokumentNaziv": "Laboratorijski izvid 009",
+        "datum": "2026-09-09",
+        "meritevId": "M010",
+        "naziv": "Glukoza",
+        "vrednost": "",
+        "enota": "mmol/L",
+        "stran": "1"
+    },
+    {
+        "pacientId": "P011",
+        "ime": "Tomaž",
+        "priimek": "Golob",
+        "dokumentId": "D012",
+        "dokumentNaziv": "Laboratorijski izvid 012",
+        "datum": "2026-10-12",
+        "meritevId": "M013",
+        "naziv": "HbA1c",
+        "vrednost": "8.0",
+        "enota": "",
+        "stran": "1"
+    }
+]

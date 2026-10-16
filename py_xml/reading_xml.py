@@ -219,7 +219,7 @@ povezani_podatki = povezi_podatke(pacienti,dokumenti, meritve)
 print("1 - Meritve izbranega pacienta")
 print("2 - Meritve z manjkajočo vrednostjo ali enoto")
 
-izbor = input("Vpisite 1 ali 2: ").strip()
+izbor = input("Izberite filter (1/2): ").strip()
 
 if izbor == '1':
     pacient_id = input("Vnesite ID pacienta:").strip().upper()
@@ -240,5 +240,5 @@ if not filtrirano:
     print("Za izbranega pacienta ni meritev.")
 
     
-izvezi_json(filtrirano, BASE_DIR / "filtrirano.json")
-izvezi_xml(filtrirano, BASE_DIR / "filtrirano.xml")
+izvezi_json(filtrirano, BASE_DIR / "filtered" /  "filtrirano.json")
+izvezi_xml(filtrirano, BASE_DIR / "filtered" / "filtrirano.xml")
