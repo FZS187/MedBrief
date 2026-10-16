@@ -1,0 +1,41 @@
+[
+    {
+        "pacientId": "P001",
+        "ime": "Marko",
+        "priimek": "Novak",
+        "dokumentId": "D001",
+        "dokumentNaziv": "Laboratorijski izvid 001",
+        "datum": "2026-09-01",
+        "meritevId": "M001",
+        "naziv": "HbA1c",
+        "vrednost": "7.2",
+        "enota": "%",
+        "stran": "1"
+    },
+    {
+        "pacientId": "P001",
+        "ime": "Marko",
+        "priimek": "Novak",
+        "dokumentId": "D001",
+        "dokumentNaziv": "Laboratorijski izvid 001",
+        "datum": "2026-09-01",
+        "meritevId": "M002",
+        "naziv": "Glukoza",
+        "vrednost": "8.1",
+        "enota": "mmol/L",
+        "stran": "2"
+    },
+    {
+        "pacientId": "P001",
+        "ime": "Marko",
+        "priimek": "Novak",
+        "dokumentId": "D002",
+        "dokumentNaziv": "Laboratorijski izvid 002",
+        "datum": "2026-09-02",
+        "meritevId": "M003",
+        "naziv": "HbA1c",
+        "vrednost": "6.8",
+        "enota": "%",
+        "stran": "1"
+    }
+]
