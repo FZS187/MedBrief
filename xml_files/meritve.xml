@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meritve>
+    <!--Sintetični testni podatki. Vse osebe, dokumenti in meritve so izmišljeni.-->
+    <meritev id="M001" dokumentId="D001">
+        <naziv>HbA1c</naziv>
+        <vrednost>7.2</vrednost>
+        <enota>%</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M002" dokumentId="D001">
+        <naziv>Glukoza</naziv>
+        <vrednost>8.1</vrednost>
+        <enota>mmol/L</enota>
+        <stran>2</stran>
+    </meritev>
+    <meritev id="M003" dokumentId="D002">
+        <naziv>HbA1c</naziv>
+        <vrednost>6.8</vrednost>
+        <enota>%</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M004" dokumentId="D003">
+        <naziv>Glukoza</naziv>
+        <vrednost>7.4</vrednost>
+        <enota>mmol/L</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M005" dokumentId="D004">
+        <naziv>HbA1c</naziv>
+        <vrednost></vrednost>
+        <enota>%</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M006" dokumentId="D005">
+        <naziv>Glukoza</naziv>
+        <vrednost>6.9</vrednost>
+        <enota>mmol/L</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M007" dokumentId="D006">
+        <naziv>HbA1c</naziv>
+        <vrednost>7.8</vrednost>
+        <enota></enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M008" dokumentId="D007">
+        <naziv>Glukoza</naziv>
+        <vrednost>8.6</vrednost>
+        <enota>mmol/L</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M009" dokumentId="D008">
+        <naziv>HbA1c</naziv>
+        <vrednost>6.5</vrednost>
+        <enota>%</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M010" dokumentId="D009">
+        <naziv>Glukoza</naziv>
+        <vrednost></vrednost>
+        <enota>mmol/L</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M011" dokumentId="D010">
+        <naziv>HbA1c</naziv>
+        <vrednost>7.1</vrednost>
+        <enota>%</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M012" dokumentId="D011">
+        <naziv>Glukoza</naziv>
+        <vrednost>7.9</vrednost>
+        <enota>mmol/L</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M013" dokumentId="D012">
+        <naziv>HbA1c</naziv>
+        <vrednost>8.0</vrednost>
+        <enota></enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M014" dokumentId="D013">
+        <naziv>Glukoza</naziv>
+        <vrednost>6.7</vrednost>
+        <enota>mmol/L</enota>
+        <stran>1</stran>
+    </meritev>
+    <meritev id="M015" dokumentId="D014">
+        <naziv>HbA1c</naziv>
+        <vrednost>6.9</vrednost>
+        <enota>%</enota>
+        <stran>1</stran>
+    </meritev>
+</meritve>

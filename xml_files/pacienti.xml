@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pacienti>
+    <!--Sintetični testni podatki. Vse osebe, dokumenti in meritve so izmišljeni.-->
+    <pacient id="P001">
+        <ime>Marko</ime>
+        <priimek>Novak</priimek>
+        <datumRojstva>1957-01-06</datumRojstva>
+    </pacient>
+    <pacient id="P002">
+        <ime>Ana</ime>
+        <priimek>Kovač</priimek>
+        <datumRojstva>1959-02-07</datumRojstva>
+    </pacient>
+    <pacient id="P003">
+        <ime>Luka</ime>
+        <priimek>Horvat</priimek>
+        <datumRojstva>1961-03-08</datumRojstva>
+    </pacient>
+    <pacient id="P004">
+        <ime>Maja</ime>
+        <priimek>Krajnc</priimek>
+        <datumRojstva>1963-04-09</datumRojstva>
+    </pacient>
+    <pacient id="P005">
+        <ime>Peter</ime>
+        <priimek>Zupančič</priimek>
+        <datumRojstva>1965-05-10</datumRojstva>
+    </pacient>
+    <pacient id="P006">
+        <ime>Nina</ime>
+        <priimek>Kovačič</priimek>
+        <datumRojstva>1967-06-11</datumRojstva>
+    </pacient>
+    <pacient id="P007">
+        <ime>Janez</ime>
+        <priimek>Potočnik</priimek>
+        <datumRojstva>1969-07-12</datumRojstva>
+    </pacient>
+    <pacient id="P008">
+        <ime>Sara</ime>
+        <priimek>Mlakar</priimek>
+        <datumRojstva>1971-08-13</datumRojstva>
+    </pacient>
+    <pacient id="P009">
+        <ime>Miha</ime>
+        <priimek>Kos</priimek>
+        <datumRojstva>1973-09-14</datumRojstva>
+    </pacient>
+    <pacient id="P010">
+        <ime>Eva</ime>
+        <priimek>Vidmar</priimek>
+        <datumRojstva>1975-10-15</datumRojstva>
+    </pacient>
+    <pacient id="P011">
+        <ime>Tomaž</ime>
+        <priimek>Golob</priimek>
+        <datumRojstva>1977-11-16</datumRojstva>
+    </pacient>
+    <pacient id="P012">
+        <ime>Petra</ime>
+        <priimek>Turk</priimek>
+        <datumRojstva>1979-12-17</datumRojstva>
+    </pacient>
+    <pacient id="P013">
+        <ime>Andrej</ime>
+        <priimek>Kralj</priimek>
+        <datumRojstva>1981-01-18</datumRojstva>
+    </pacient>
+    <pacient id="P014">
+        <ime>Tina</ime>
+        <priimek>Božič</priimek>
+        <datumRojstva>1983-02-19</datumRojstva>
+    </pacient>
+    <pacient id="P015">
+        <ime>Matej</ime>
+        <priimek>Korošec</priimek>
+        <datumRojstva>1985-03-20</datumRojstva>
+    </pacient>
+</pacienti>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<dokumenti>
+    <!--Sintetični testni podatki. Vse osebe, dokumenti in meritve so izmišljeni.-->
+    <dokument id="D001" pacientId="P001">
+        <naziv>Laboratorijski izvid 001</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-09-01</datum>
+    </dokument>
+    <dokument id="D002" pacientId="P001">
+        <naziv>Laboratorijski izvid 002</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-09-02</datum>
+    </dokument>
+    <dokument id="D003" pacientId="P002">
+        <naziv>Laboratorijski izvid 003</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-09-03</datum>
+    </dokument>
+    <dokument id="D004" pacientId="P003">
+        <naziv>Laboratorijski izvid 004</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-09-04</datum>
+    </dokument>
+    <dokument id="D005" pacientId="P004">
+        <naziv>Laboratorijski izvid 005</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-09-05</datum>
+    </dokument>
+    <dokument id="D006" pacientId="P005">
+        <naziv>Laboratorijski izvid 006</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-09-06</datum>
+    </dokument>
+    <dokument id="D007" pacientId="P006">
+        <naziv>Laboratorijski izvid 007</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-09-07</datum>
+    </dokument>
+    <dokument id="D008" pacientId="P007">
+        <naziv>Laboratorijski izvid 008</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-09-08</datum>
+    </dokument>
+    <dokument id="D009" pacientId="P008">
+        <naziv>Laboratorijski izvid 009</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-09-09</datum>
+    </dokument>
+    <dokument id="D010" pacientId="P009">
+        <naziv>Laboratorijski izvid 010</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-09-10</datum>
+    </dokument>
+    <dokument id="D011" pacientId="P010">
+        <naziv>Laboratorijski izvid 011</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-10-11</datum>
+    </dokument>
+    <dokument id="D012" pacientId="P011">
+        <naziv>Laboratorijski izvid 012</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-10-12</datum>
+    </dokument>
+    <dokument id="D013" pacientId="P012">
+        <naziv>Laboratorijski izvid 013</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-10-13</datum>
+    </dokument>
+    <dokument id="D014" pacientId="P013">
+        <naziv>Laboratorijski izvid 014</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-10-14</datum>
+    </dokument>
+    <dokument id="D015" pacientId="P014">
+        <naziv>Laboratorijski izvid 015</naziv>
+        <vrsta>Laboratorij</vrsta>
+        <datum>2026-10-15</datum>
+    </dokument>
+</dokumenti>
