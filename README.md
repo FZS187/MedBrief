@@ -6,21 +6,52 @@ Aplikacija predstavlja začetno podatkovno fazo projekta MedBrief, katerega dolg
 
 ## Zagon
 
-Potreben je **Python 3.9 ali novejši**. Aplikacija uporablja samo standardne module `xml.etree.ElementTree`, `pathlib` in `json`, zato dodatnih paketov ni treba nameščati.
+Potreben je **Python 3.9 ali novejši**. XML aplikacija uporablja samo standardne module `xml.etree.ElementTree`, `pathlib` in `json`. Odvisnosti za skripto v mapi `scraping/` (`beautifulsoup4` in `requests`) so navedene v `requirements.txt`.
 
-Klonirajte repozitorij in zaženite aplikacijo:
+Klonirajte repozitorij in enkrat ustvarite virtualno okolje `.venv` v korenu projekta:
 
 ```bash
 git clone https://github.com/FZS187/MedBrief.git
 cd MedBrief
+python -m venv .venv
+```
+
+Če vaše okolje uporablja ukaz `python3`, okolje ustvarite z `python3 -m venv .venv`.
+
+Aktivirajte okolje v terminalu, ki ga uporabljate:
+
+**Windows PowerShell:**
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+**Windows CMD:**
+
+```cmd
+.venv\Scripts\activate.bat
+```
+
+**Linux / macOS (bash ali zsh):**
+
+```bash
+source .venv/bin/activate
+```
+
+V aktiviranem okolju namestite odvisnosti in zaženite aplikacijo:
+
+```bash
+python -m pip install -r requirements.txt
 python py_xml/reading_xml.py
 ```
 
-Če vaše okolje uporablja ukaz `python3`, zadnjo komando zamenjajte z:
+Ob vsakem novem terminalu ponovno aktivirajte obstoječe okolje. Namestitev ponovite, ko se spremeni `requirements.txt`. Za izhod iz okolja uporabite:
 
 ```bash
-python3 py_xml/reading_xml.py
+deactivate
 ```
+
+Mapa `.venv/` je vključena v `.gitignore` in se ne shranjuje v Git. Vsak razvijalec ustvari svoje okolje iz `requirements.txt`.
 
 ## Uporaba
 
