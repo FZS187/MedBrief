@@ -33,7 +33,7 @@ for i in range(1,6):
 
 
 
-
+#classes for title and text
 
 classNameTitle = "after:absolute after:inset-0 after:rounded-2xl after:content-[''] focus-visible:outline-none focus-visible:after:ring-2 focus-visible:after:ring-brand"
 classNameText = "mt-1.5 line-clamp-2 text-base leading-5.25 text-ink dark:text-slate-300"

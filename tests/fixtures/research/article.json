@@ -1,0 +1,19 @@
+{
+  "url": "https://example.org/article",
+  "title": "Public documentation reference",
+  "text": "Public article text.",
+  "main_text": "# Documentation\n\nThis synthetic reference describes how to document source files and preserve their dates and page references. A reviewer checks the original documents and confirms the information before it is used. This is test material, not a clinical recommendation.\n\n## References\n\n- [Original](https://example.org/source)",
+  "content": "",
+  "content_type": "text/markdown",
+  "headers": {},
+  "receipt": {
+    "status": "observed",
+    "method": "http",
+    "http_status": 200,
+    "final_url": "https://example.org/article",
+    "trace_id": "fixture-trace",
+    "cost_usd": 0,
+    "failure": null,
+    "main_content": {"method": "markdown", "chars": 335}
+  }
+}

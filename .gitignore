@@ -1,2 +1,9 @@
 # Lokalno virtualno okolje Python
 .venv/
+__pycache__/
+/.research-dev/
+/.frankensurf-state/
+/research/
+
+
+.agents

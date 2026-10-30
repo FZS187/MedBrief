@@ -1,0 +1,2 @@
+# Install inside the WSL virtual environment used for public-web research.
+frankensurf==0.52.0
