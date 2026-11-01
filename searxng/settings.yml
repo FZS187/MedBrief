@@ -1,0 +1,27 @@
+# Reuse SearXNG defaults, but load only these free search engines.
+use_default_settings:
+  engines:
+    keep_only:
+      - google
+      - duckduckgo
+      - bing
+
+search:
+  # HTML is for the browser; JSON is for our Python application.
+  formats:
+    - html
+    - json
+
+server:
+  # This instance is local. The public-instance limiter would need Valkey.
+  limiter: false
+  public_instance: false
+  # The secret key is supplied through SEARXNG_SECRET by Compose.
+
+engines:
+  - name: google
+    disabled: false
+  - name: duckduckgo
+    disabled: false
+  - name: bing
+    disabled: false

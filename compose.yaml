@@ -1,0 +1,18 @@
+services:
+  searxng:
+    image: searxng/searxng:latest
+    ports:
+      # Our adapter connects to port 8088; SearXNG listens on 8080 inside Docker.
+      - "127.0.0.1:8088:8080"
+    environment:
+      # Compose reads this local key from .env beside this file.
+      SEARXNG_SECRET: "${SEARXNG_SECRET:?Set SEARXNG_SECRET in .env}"
+      SEARXNG_BASE_URL: "http://localhost:8088/"
+    volumes:
+      # Keep settings editable in the project and cache data in a Docker volume.
+      - ./searxng:/etc/searxng
+      - searxng-data:/var/cache/searxng
+    restart: unless-stopped
+
+volumes:
+  searxng-data:
