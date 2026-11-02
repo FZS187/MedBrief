@@ -1,3 +1,7 @@
 beautifulsoup4
 requests
 streamlit==1.66.1
+pyaxis
+pandas
+matplotlib
+numpy 

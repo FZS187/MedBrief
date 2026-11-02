@@ -53,6 +53,14 @@ deactivate
 
 Mapa `.venv/` je vključena v `.gitignore` in se ne shranjuje v Git. Vsak razvijalec ustvari svoje okolje iz `requirements.txt`.
 
+## Running the open-data visualization
+
+From the project root, run in **Windows PowerShell**:
+
+```powershell
+.\.venv\Scripts\python.exe -m streamlit run open_data/open_data.py
+```
+
 ## Running the public research app (SearXNG + Streamlit)
 
 This optional research tool is separate from the XML console app above. It uses
